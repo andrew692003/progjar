@@ -88,8 +88,6 @@ def chat_server():
 									#temp1[1] nama target yang mau dikirim message
 									if NAME_LIST[x]==temp1[1]:
 										send_msg(NAME_LIST[x-1], "["+user+"] : "+temp2+"\n")
-									else:
-										print ('user yang dituju tidak ada')
 									
 						elif temp1[0]=="sendall" :
 							

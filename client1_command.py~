@@ -53,7 +53,7 @@ def chat_client():
 				d=len(temp1)
 				#command buat login
 				if temp1[0]=="login" :
-					#jika command login lebih dari 1 kata, maka invalid
+					#jika command login lebih dari 2 kata, maka invalid
 					if d>2:
 						print('Username Invalid')
 					#jika command login hanya nulis "login"
